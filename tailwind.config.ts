@@ -48,12 +48,12 @@ const config: Config = {
       animation: {
         'open-menu': 'open-menu 0.75s ease-in-out',
         'close-menu': 'close-menu 0.75s ease-in-out',
-        shake: 'shake 0.75s infinite ease-in-out',
+        shake: 'shake 0.5s infinite ease-in-out',
         progress: 'progress 10s ease-in-out',
       },
       backgroundImage: {
-        mobile: 'url(/bgmobile.webp)',
-        desktop: 'url(/bgdesktop.webp)',
+        mobile: 'url(/mobile.webp)',
+        desktop: 'url(/desktop.webp)',
       },
     },
   },
