@@ -1,7 +1,6 @@
 export default function Home() {
   return (
-  <main className="font-text">
-    HELLO WORLD!
-  </main>
+    <main className="bg-mobile bg-cover bg-center h-screen">
+    </main>
   )
 }

@@ -1,6 +1,9 @@
 import '../globals.css'
+
 import type { Metadata } from 'next'
 import { Arimo, Changa } from 'next/font/google'
+
+import Header from '@/components/shared/Header'
 
 const arimo = Arimo({
   variable: '--font-arimo',
@@ -32,6 +35,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="pt-br" className={`${arimo.variable} ${changa.variable}`}>
       <body className="scroll-smooth selection:bg-brand-darkGray selection:text-brand-yellow bg-brand-gray text-brand-white font-text">
+      <Header />
         {children}
       </body>
     </html>
