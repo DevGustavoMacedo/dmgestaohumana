@@ -23,6 +23,7 @@ const config: Config = {
       screens: {
         sm: '576px',
         '2xl': '1600px',
+        '3xl': '2000px',
       },
       keyframes: {
         'open-menu': {
